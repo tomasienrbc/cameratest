@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A8F31DB1746C42800933539"
-               BuildableName = "cameraTest.app"
-               BlueprintName = "cameraTest"
-               ReferencedContainer = "container:cameraTest.xcodeproj">
+               BlueprintIdentifier = "4A8F320D1746C54400933539"
+               BuildableName = "CameraTest.app"
+               BlueprintName = "CameraTest"
+               ReferencedContainer = "container:CameraTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A8F31DB1746C42800933539"
-            BuildableName = "cameraTest.app"
-            BlueprintName = "cameraTest"
-            ReferencedContainer = "container:cameraTest.xcodeproj">
+            BlueprintIdentifier = "4A8F320D1746C54400933539"
+            BuildableName = "CameraTest.app"
+            BlueprintName = "CameraTest"
+            ReferencedContainer = "container:CameraTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A8F31DB1746C42800933539"
-            BuildableName = "cameraTest.app"
-            BlueprintName = "cameraTest"
-            ReferencedContainer = "container:cameraTest.xcodeproj">
+            BlueprintIdentifier = "4A8F320D1746C54400933539"
+            BuildableName = "CameraTest.app"
+            BlueprintName = "CameraTest"
+            ReferencedContainer = "container:CameraTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A8F31DB1746C42800933539"
-            BuildableName = "cameraTest.app"
-            BlueprintName = "cameraTest"
-            ReferencedContainer = "container:cameraTest.xcodeproj">
+            BlueprintIdentifier = "4A8F320D1746C54400933539"
+            BuildableName = "CameraTest.app"
+            BlueprintName = "CameraTest"
+            ReferencedContainer = "container:CameraTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
