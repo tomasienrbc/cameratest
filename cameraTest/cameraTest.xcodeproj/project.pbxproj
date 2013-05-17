@@ -20,8 +20,7 @@
 		4A8F322D1746C54400933539 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8F322B1746C54400933539 /* MainStoryboard_iPhone.storyboard */; };
 		4A8F32301746C54400933539 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8F322E1746C54400933539 /* MainStoryboard_iPad.storyboard */; };
 		4A8F32331746C54500933539 /* CameraTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F32311746C54500933539 /* CameraTest.xcdatamodeld */; };
-		4A8F32361746C54500933539 /* CTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F32351746C54500933539 /* CTMasterViewController.m */; };
-		4A8F32391746C54500933539 /* CTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F32381746C54500933539 /* CTDetailViewController.m */; };
+		4A8F32411746C64A00933539 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F32401746C64A00933539 /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,10 +41,8 @@
 		4A8F322C1746C54400933539 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4A8F322F1746C54400933539 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		4A8F32321746C54500933539 /* CameraTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CameraTest.xcdatamodel; sourceTree = "<group>"; };
-		4A8F32341746C54500933539 /* CTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTMasterViewController.h; sourceTree = "<group>"; };
-		4A8F32351746C54500933539 /* CTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMasterViewController.m; sourceTree = "<group>"; };
-		4A8F32371746C54500933539 /* CTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTDetailViewController.h; sourceTree = "<group>"; };
-		4A8F32381746C54500933539 /* CTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTDetailViewController.m; sourceTree = "<group>"; };
+		4A8F323F1746C64A00933539 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../MasterViewController.h; sourceTree = "<group>"; };
+		4A8F32401746C64A00933539 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../MasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,14 +91,12 @@
 		4A8F32191746C54400933539 /* CameraTest */ = {
 			isa = PBXGroup;
 			children = (
+				4A8F323F1746C64A00933539 /* MasterViewController.h */,
+				4A8F32401746C64A00933539 /* MasterViewController.m */,
 				4A8F32221746C54400933539 /* CTAppDelegate.h */,
 				4A8F32231746C54400933539 /* CTAppDelegate.m */,
 				4A8F322B1746C54400933539 /* MainStoryboard_iPhone.storyboard */,
 				4A8F322E1746C54400933539 /* MainStoryboard_iPad.storyboard */,
-				4A8F32341746C54500933539 /* CTMasterViewController.h */,
-				4A8F32351746C54500933539 /* CTMasterViewController.m */,
-				4A8F32371746C54500933539 /* CTDetailViewController.h */,
-				4A8F32381746C54500933539 /* CTDetailViewController.m */,
 				4A8F32311746C54500933539 /* CameraTest.xcdatamodeld */,
 				4A8F321A1746C54400933539 /* Supporting Files */,
 			);
@@ -193,8 +188,7 @@
 				4A8F32201746C54400933539 /* main.m in Sources */,
 				4A8F32241746C54400933539 /* CTAppDelegate.m in Sources */,
 				4A8F32331746C54500933539 /* CameraTest.xcdatamodeld in Sources */,
-				4A8F32361746C54500933539 /* CTMasterViewController.m in Sources */,
-				4A8F32391746C54500933539 /* CTDetailViewController.m in Sources */,
+				4A8F32411746C64A00933539 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
